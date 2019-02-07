@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding-right: 12px;
+}
+
+/* Classes */
+.feature-text {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.green-subtitle {
+    color: #1CB26A;
+    font-weight: bolder;
+}
+.row {
+    height: 400px;
+}
+.sp-icon {
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+/* ID's */
+#features {
+    text-align: center;
+}
+#features h1 {
+    border-bottom: 3px solid #1CB26A;
+    font-size: 40px;
+    margin: 40px auto;
+    padding-bottom: 10px;
+    width: 30%;
+}
+#green-section {
+    background-color: #1CB26A;
+    height: 400px;
+}
+#green-text {
+    background-color: red;
+    width: 60%;
+}
+#green-image {
+    background-color: blue;
+    width: 40%;
+}
+#landing-screen {
+    align-items: center;
+    background-size: contain;
+    background-image: url('../images/landing.jpg');
+    display: flex;
+    height: 800px;
+    text-align: center;
+}
+#landing-text {
+    color: white;
+    height: 20%;
+    margin-left: 20%;
+    margin-right: 20%; 
+    width: 70%;
+}
+#landing-text h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+#landing-text h2 {
+    font-weight: 80;
+}
+#logo {
+    width: 30%;
+}
+#navbar {
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+#spotify-logo {
+    float: left;
+    height: 50px;
+    padding-left: 25px;
+    width: auto;
+}
+#top-navbar {
+    color: black;
+    width: 70%;
+}
